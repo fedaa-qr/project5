@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+header{
+    background-color:hsl(340deg 82% 52%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 150px ;
+    margin-bottom: 40px;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list span{
+     margin-left: 50px;
+} 
+
+.list span a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.logo img{
+    width: 40px;
+}
+.loginform .inner{
+   
+     width: 30%;
+    margin: auto;
+    box-shadow:  10px 10px 14px 3px #eeecec, -10px -10px 14px 3px #eeecec;
+      padding: 54px 39px;
+}
+.loginform div p{
+    margin-left: 35%;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+.loginform .inner p i{
+     color: hsl(340deg 82% 52%);
+    font-size: 25px;
+    margin-right: 10px;
+}
+.loginform div form input{
+    display: block;
+   width: 100%; 
+    margin-bottom: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.loginform div form input[type='checkbox']{
+    display: inline;
+    width: auto; 
+      margin-bottom: 50px;
+}
+.loginform div form .btn{
+    display: flex;
+    justify-content: center;
+    border: 0px;
+  
+    
+}
+.loginform div form input[type='submit']{
+    
+    width:250px;
+    background-color: hsl(240deg 95% 69%);
+    color: white;
+    border-radius: 7px;
+}
+.loginform div form input[type='submit']:hover{
+  background-color: #3f3fda;
+  cursor: pointer;
+}
+.massage i{
+    color: white;
+    background-color: hsl(340deg 82% 52%);
+    border-radius: 50%;
+    padding: 18px;
+    font-size: 27px;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}
+.massage i:hover{
+     cursor: pointer;
+}
+@media(max-width:767px){
+    header{
+            padding: 12px 90px;
+            display: flex;
+        justify-content: space-around;
+    }
+    .loginform .inner {
+    width: 80%;
+    height: 381px;
+}
+    .logo img {
+        margin-right: 50px;
+    }
+    .massage i {
+            bottom: 64px;
+            right: 25px;
+    }
+}
+        
+    
